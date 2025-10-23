@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Output PDF
-          path: book.pdf
+          path: exports/book.pdf
           compression-level: 0
 
       - name: Build HTML
